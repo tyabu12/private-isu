@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'isucon_portal'
-set :repo_url, 'git@github.com:catatsuy/private-isu.git'
+set :repo_url, 'git@github.com:tyabu12/private-isu.git'
 
 # deploy sub directory
 set :repo_tree, 'portal'

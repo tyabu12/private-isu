@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/catatsuy/private-isu/benchmarker/checker"
-	"github.com/catatsuy/private-isu/benchmarker/score"
-	"github.com/catatsuy/private-isu/benchmarker/util"
+	"github.com/tyabu12/private-isu/benchmarker/checker"
+	"github.com/tyabu12/private-isu/benchmarker/score"
+	"github.com/tyabu12/private-isu/benchmarker/util"
 )
 
 // Exit codes are int values that represent an exit code for a particular error.

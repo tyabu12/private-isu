@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/catatsuy/private-isu/benchmarker/score"
+	"github.com/tyabu12/private-isu/benchmarker/score"
 )
 
 const (

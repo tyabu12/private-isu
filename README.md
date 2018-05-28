@@ -22,7 +22,7 @@
 以下の手順で実行できる。
 
 ```sh
-/opt/go/bin/benchmarker -t http://<競技者用インスタンスのグローバルIPアドレス>/ -u /opt/go/src/github.com/catatsuy/private-isu/benchmarker/userdata
+/opt/go/bin/benchmarker -t http://<競技者用インスタンスのグローバルIPアドレス>/ -u /opt/go/src/github.com/tyabu12/private-isu/benchmarker/userdata
 
 # Output
 # {"pass":true,"score":1710,"success":1434,"fail":0,"messages":[]}

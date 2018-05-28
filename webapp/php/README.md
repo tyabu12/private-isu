@@ -6,7 +6,7 @@
 # Run in built-in server
 
 ```
-cd src/github.com/catatsuy/private-isu/webapp/php
+cd src/github.com/tyabu12/private-isu/webapp/php
 php -S localhost:8080 -t ../public app.php
 ```
 
