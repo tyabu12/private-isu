@@ -26,7 +26,7 @@
   apt: name=unzip state=latest
 
 - name: download images
-  get_url: url=https://github.com/catatsuy/private-isu/releases/download/img/img.zip dest={{ gopath }}/src/github.com/tyabu12/private-isu/benchmarker/userdata/img.zip checksum=md5:4e66b924aa095030a9d152ab5f2015de
+  get_url: url=https://github.com/catatsuy/private-isu/releases/download/img/img.zip dest={{ gopath }}/src/github.com/tyabu12/private-isu/benchmarker/userdata/img.zip checksum=md5:4e66b924aa095030a9d152ab5f2015de timeout=720
   register: imgzip
 
 - name: unarchive images
