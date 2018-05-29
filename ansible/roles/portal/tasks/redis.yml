@@ -3,7 +3,7 @@
   apt: name=redis-server state=latest update_cache=yes
 
 - name: start redis
-  service: name=redis-server state=running enabled=yes
+  service: name=redis-server state=started enabled=yes
 
 - name: require password
   lineinfile: dest=/etc/redis/redis.conf line="requirepass {{ redis_pass }}" state=present
