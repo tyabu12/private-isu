@@ -1,8 +1,8 @@
-app: deps app.go
+all:
 	go build -o app
 
 .PHONY: deps
-deps: dep lock.json manifest.json
+deps: dep Gopkg.toml Gopkg.lock
 	dep ensure
 
 .PHONY: dep
