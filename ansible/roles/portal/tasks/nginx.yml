@@ -3,7 +3,7 @@
   apt: name=nginx state=latest update_cache=yes
 
 - name: start nginx
-  service: name=nginx state=running enabled=yes
+  service: name=nginx state=started enabled=yes
   notify: restart nginx
 
 - name: delete default virtualhost setting
