@@ -30,5 +30,5 @@
   register: imgzip
 
 - name: unarchive images
-  unarchive: src={{ gopath }}/src/github.com/catatsuy/private-isu/benchmarker/userdata/img.zip dest={{ gopath }}/src/github.com/tyabu12/private-isu/benchmarker/userdata copy=no
+  unarchive: src={{ gopath }}/src/github.com/tyabu12/private-isu/benchmarker/userdata/img.zip dest={{ gopath }}/src/github.com/tyabu12/private-isu/benchmarker/userdata copy=no
   when: imgzip.changed
